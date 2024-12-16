@@ -1,0 +1,15 @@
+.wrapper{
+  width: 100%;
+  max-width: 50%;
+  height: 100%;
+  min-height: 75%;
+
+  @media (max-width: 774px) {
+     max-width: 90%;
+  }
+
+  & button {
+    color: var(--blue-200);
+  }
+
+}

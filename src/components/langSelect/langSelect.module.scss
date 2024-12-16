@@ -1,0 +1,32 @@
+.wrapper {
+  & button {
+    color: var(--blue-200);
+  }
+}
+
+.languageItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.languageIcon {
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  gap: 5px;
+}
+
+.languageName {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.languageVersion {
+  font-size: 12px;
+  color: #aaa;
+}
+

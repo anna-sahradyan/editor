@@ -1,0 +1,60 @@
+{
+  "execute": [
+    {
+      "id": 1,
+      "language": "javascript",
+      "code": "\nfunction greet(name) {\n\tconsole.log(\"Hello, \" + name + \"!\");\n}\n\ngreet(\"Anna\");\n",
+      "status": "success",
+      "output": "Hello, Anna!\n"
+    },
+    {
+      "id": 2,
+      "language": "typescript",
+      "code": "\ntype Params = {\n\tname: string;\n}\n\nfunction greet(data: Params) {\n\tconsole.log(\"Hello, \" + data.name + \"!\");\n}\n\ngreet({ name: \"Anna\" });\n",
+      "status": "success",
+      "output": "Hello, Anna!\n"
+    },
+    {
+      "id": 3,
+      "language": "python",
+      "code": "\ndef greet(name):\n\tprint(\"Hello, \" + name + \"!\")\n\ngreet(\"Anna\")\n",
+      "status": "success",
+      "output": "Hello, Anna!\n"
+    },
+    {
+      "id": 4,
+      "language": "java",
+      "code": "\npublic class HelloWorld {\n\tpublic static void main(String[] args) {\n\t\tSystem.out.println(\"Hello World\");\n\t}\n}\n",
+      "status": "success",
+      "output": "Hello World\n"
+    },
+    {
+      "id": 5,
+      "language": "csharp",
+      "code": "using System;\n\nnamespace HelloWorld\n{\n\tclass Hello { \n\t\tstatic void Main(string[] args) {\n\t\t\tConsole.WriteLine(\"Hello World in C#\");\n\t\t}\n\t}\n}\n",
+      "status": "success",
+      "output": "Hello World in C#\n"
+    },
+    {
+      "id": 6,
+      "language": "php",
+      "code": "<?php\n\n$name = 'Anna';\necho $name;\n",
+      "status": "success",
+      "output": "Anna\n"
+    },
+    {
+      "id": 7,
+      "language": "go",
+      "code": "package main\n\nimport \"fmt\"\n\nfunc greet(name string) {\n    fmt.Println(\"Hello, \" + name + \"!\")\n}\n\nfunc main() {\n    greet(\"Anna\")\n}",
+      "status": "success",
+      "output": "Hello, Anna!\n"
+    },
+    {
+      "id": "56d4",
+      "language": "javascript",
+      "code": "\nfunction greet(name) {\n\tconsole.log(\"Hello, \" + name + \"!\");\n}\n\ngreet(\"Anna\");\n",
+      "output": "Mocked output for javascript",
+      "status": "success"
+    }
+  ]
+}
