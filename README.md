@@ -1,8 +1,5 @@
-# React + Vite
+Этот проект представляет собой веб-приложение для запуска кода на нескольких языках программирования. Он включает редактор кода с поддержкой языков JavaScript, Python, Java, C#, PHP, Go и TypeScript. Пользователи могут выбирать язык программирования через выпадающее меню, писать и запускать код, а результаты выполнения отображаются в интерфейсе.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Для выполнения кода используется API Piston API от emkc.org, который поддерживает запуск кода на различных языках программирования. Приложение отправляет исходный код на сервер через запросы, а затем отображает результаты выполнения, полученные от API.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Проект построен с использованием React, Monaco Editor, Material-UI и Axios для взаимодействия с API.
