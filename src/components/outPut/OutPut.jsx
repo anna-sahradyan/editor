@@ -47,7 +47,7 @@ export const OutPut = () => {
                 display="flex"
                 flexDirection="column"
                 height={'70%'}
-                minHeight="425px"
+                minHeight="447px"
                 boxShadow="var(--shadow-01)"
                 padding={'5px 0px 0px 10px'}
                 color={isError ? 'var(--brown-300)' : 'var(--blue-200)'}
